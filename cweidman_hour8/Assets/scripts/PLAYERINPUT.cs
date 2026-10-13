@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PLAYERINPUT : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,11 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         
+float hVal = Input.GetAxis("Horizontal");
+float vVal = Input.GetAxis("Vertical");
+if(hVal != 0)
+    print("Horizontal movement selected: " + hVal);
+if(vVal != 0)
+    print("Vertical movement selected: " + vVal);
     }
 }
