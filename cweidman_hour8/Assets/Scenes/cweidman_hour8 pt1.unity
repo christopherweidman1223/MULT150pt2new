@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 403479622}
   - component: {fileID: 403479621}
   - component: {fileID: 403479620}
+  - component: {fileID: 403479623}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -206,6 +207,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &403479623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403479619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1fdbe8a03f772488c7768df9a90960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1364248443
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1743145671}
   - component: {fileID: 1743145670}
+  - component: {fileID: 1743145672}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -397,6 +411,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1743145672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743145669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51df7757c90cfbe4c990da5eb4059c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1866387528
 GameObject:
   m_ObjectHideFlags: 0
